@@ -93,4 +93,77 @@ block content %}
   <h1>Welcome!</h1>
   <p class="lead">This site is built with Flask and Bootstrap.</p>
 </div>
+{% endblock %} {% extends 'base.html' %} {% block title %}Home - My Flask Site{%
+endblock %} {% block content %}
+<!-- Hero Carousel (keep your existing carousel here) -->
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+  <!-- ... carousel code ... -->
+</div>
+
+<!-- Feature Cards Section -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Our Features</h2>
+
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img
+            src="{{ url_for('static', filename='images/feature1.jpg') }}"
+            class="card-img-top"
+            alt="Feature 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Fast & Reliable</h5>
+            <p class="card-text">
+              Our platform is optimized for speed and reliability, ensuring a
+              seamless experience.
+            </p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img
+            src="{{ url_for('static', filename='images/feature2.jpg') }}"
+            class="card-img-top"
+            alt="Feature 2"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Easy to Use</h5>
+            <p class="card-text">
+              Simple and intuitive interface designed with users in mind.
+            </p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img
+            src="{{ url_for('static', filename='images/feature3.jpg') }}"
+            class="card-img-top"
+            alt="Feature 3"
+          />
+          <div class="card-body">
+            <h5 class="card-title">24/7 Support</h5>
+            <p class="card-text">
+              Our dedicated team is here to help you anytime you need
+              assistance.
+            </p>
+            <a href="{{ url_for('contact') }}" class="btn btn-primary"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 {% endblock %}
