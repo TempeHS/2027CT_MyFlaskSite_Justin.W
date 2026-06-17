@@ -5,3 +5,37 @@ body {
 }
 
 /* Add more custom styles as needed */
+
+/* Custom styles for My Flask Site */
+
+body {
+  padding-top: 70px; /* Space for fixed navbar */
+}
+
+/* Hero Carousel Styles */
+.carousel-item img {
+  height: 500px;
+  object-fit: cover; /* Crop images to fit */
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.carousel-caption h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* On smaller screens */
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 300px;
+  }
+
+  .carousel-caption h2 {
+    font-size: 1.5rem;
+  }
+}

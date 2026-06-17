@@ -1,7 +1,96 @@
 {% extends 'base.html' %} {% block title %}Home - My Flask Site{% endblock %} {%
 block content %}
+<!-- Hero Carousel -->
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+  <!-- Indicators (dots) -->
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-bs-target="#heroCarousel"
+      data-bs-slide-to="0"
+      class="active"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#heroCarousel"
+      data-bs-slide-to="1"
+    ></button>
+    <button
+      type="button"
+      data-bs-target="#heroCarousel"
+      data-bs-slide-to="2"
+    ></button>
+  </div>
+
+  <!-- Slides -->
+  <div class="carousel-inner">
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <img
+        src="{{ url_for('static', filename='images/hero1.jpg') }}"
+        class="d-block w-100"
+        alt="Welcome"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Welcome to My Site</h2>
+        <p>Discover what we have to offer.</p>
+        <a href="{{ url_for('contact') }}" class="btn btn-primary btn-lg"
+          >Learn More</a
+        >
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img
+        src="{{ url_for('static', filename='images/hero2.jpg') }}"
+        class="d-block w-100"
+        alt="Features"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Amazing Features</h2>
+        <p>Built with Flask and Bootstrap.</p>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <img
+        src="{{ url_for('static', filename='images/hero3.jpg') }}"
+        class="d-block w-100"
+        alt="Contact"
+      />
+      <div class="carousel-caption d-none d-md-block">
+        <h2>Get in Touch</h2>
+        <p>We'd love to hear from you.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls (arrows) -->
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#heroCarousel"
+    data-bs-slide="prev"
+  >
+    <span class="carousel-control-prev-icon"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#heroCarousel"
+    data-bs-slide="next"
+  >
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Rest of page content -->
 <div class="container mt-5">
-  <h1>Welcome to My Website!</h1>
+  <h1>Welcome!</h1>
   <p class="lead">This site is built with Flask and Bootstrap.</p>
 </div>
 {% endblock %}
