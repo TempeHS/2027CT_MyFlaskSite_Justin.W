@@ -1,7 +1,61 @@
 {% extends 'base.html' %} {% block title %}Contact - My Flask Site{% endblock %}
 {% block content %}
-<div class="container mt-5">
-  <h1>Contact Us</h1>
-  <p>Contact form coming soon!</p>
+<div class="container py-5">
+  <h1 class="text-center mb-5">Contact Us</h1>
+
+  <div class="row">
+    <!-- Map Column -->
+    <div class="col-lg-6 mb-4">
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d984.3077347204517!2d151.1604735421872!3d-33.92045961003302!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12b08afb16153d%3A0xbd21d225e980c8aa!2sTempe%20High%20School!5e0!3m2!1sen!2sau!4v1782174301779!5m2!1sen!2sau"
+          width="100%"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </div>
+    </div>
+
+    <!-- Info Column -->
+    <div class="col-lg-6 mb-4">
+      <!-- Contact form will go here in next lesson -->
+
+      <!-- Contact Info -->
+      <div class="contact-info mt-4">
+        <h4>Get in Touch</h4>
+        <p>Have questions? We'd love to hear from you!</p>
+
+        <ul class="list-unstyled">
+          <li class="mb-3">
+            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+            <strong>Address:</strong><br />
+            <span class="ms-4">Unwins Bridge Rd, Tempe NSW 2044</span>
+          </li>
+          <li class="mb-3">
+            <i class="bi bi-telephone-fill text-primary me-2"></i>
+            <strong>Phone:</strong><br />
+            <span class="ms-4">(02) 1234 5678</span>
+          </li>
+          <li class="mb-3">
+            <i class="bi bi-envelope-fill text-primary me-2"></i>
+            <strong>Email:</strong><br />
+            <span class="ms-4"
+              ><a href="mailto:info@myflasksite.com"
+                >info@myflasksite.com</a
+              ></span
+            >
+          </li>
+          <li class="mb-3">
+            <i class="bi bi-clock-fill text-primary me-2"></i>
+            <strong>Hours:</strong><br />
+            <span class="ms-4">Mon-Fri: 9am - 5pm</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
 {% endblock %}
