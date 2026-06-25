@@ -122,3 +122,15 @@ section h2 {
   font-weight: 500;
   margin-bottom: 5px;
 }
+
+/* Navbar link colors */
+.navbar .nav-link {
+  color: #757ba0 !important; /* normal link color */
+  font-family: "Poppins", Arial, sans-serif; /* font */
+  font-size: 19/* size */
+  font-weight: 600; /* thickness */
+}
+
+.navbar .nav-link:hover {
+  color: #022354 !important; /* hover color */
+}
