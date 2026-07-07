@@ -1,7 +1,38 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 
 app = Flask(__name__)
-app.secret_key = "dev-secret-key-change-me"  # needed for session
+app.secret_key = "dev-secret-key-change-me"
+
+YEAR_GROUPS = [
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "Others",
+]
+
+SUBJECTS = [
+    "Mathematics",
+    "English",
+    "Science",
+    "History",
+    "Geography",
+    "Coding",
+    "Japanese",
+    "Chinese",
+    "Commerce",
+]
+
+CORE = {
+    year: ["Mathematics", "English", "Science", "History", "Geography"]
+    for year in YEAR_GROUPS
+}
+
+ELECTIVE = {year: ["Coding", "Japanese", "Chinese", "Commerce"] for year in YEAR_GROUPS}
 
 
 @app.route("/")
@@ -48,8 +79,32 @@ def userform():
 @app.route("/userprivate")
 def userprivate():
     name = session.get("name", "User")
-    year_group = session.get("year_group")
+    year_group = session.get("year_group")  # fix: define this first
+    if not year_group:
+        return redirect(url_for("userform"))
     return render_template("userprivarte.html", name=name, year_group=year_group)
+
+
+@app.route("/core")
+def core():
+    year_group = session.get("year_group")
+    subjects = CORE.get(year_group, [])
+    if not year_group:
+        return redirect(url_for("userform"))
+
+    subjects = CORE.get(year_group, [])
+    return render_template("core.html", year_group=year_group, subjects=subjects)
+
+
+@app.route("/elective")
+def elective():
+    year_group = session.get("year_group")
+    subjects = ELECTIVE.get(year_group, [])
+    if not year_group:
+        return redirect(url_for("userform"))
+
+    subjects = ELECTIVE.get(year_group, [])
+    return render_template("elective.html", year_group=year_group, subjects=subjects)
 
 
 if __name__ == "__main__":

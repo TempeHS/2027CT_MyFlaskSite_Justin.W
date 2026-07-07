@@ -1,7 +1,57 @@
 {% extends "base.html" %} {% block title %}User Private{% endblock %} {% block
 content %}
 <div class="container mt-5">
-  <h1>Hello, {{ name }}!</h1>
-  <p>Your selected year group is: <strong>Year {{ year_group }}</strong></p>
+  <div class="row">
+    <div class="col-12">
+      <h1>Hello, {{ name }}!</h1>
+      <p>
+        You can start learning now from clicking the two buttons below that
+        separates the subjects you can learn about!
+      </p>
+    </div>
+  </div>
+
+  <h3>Updated Changes:</h3>
+  <p>- Website Created!</p>
+
+  <div class="row mt-4">
+    <div class="col-md-6 mb-4">
+      <div class="card h-100 private-card">
+        <img
+          src="{{ url_for('static', filename='images/privatecore.jpg') }}"
+          class="card-img-top"
+          alt="Core Subjects"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Core Subjects</h5>
+          <p class="card-text">
+            Access core learning materials for your selected year group.
+          </p>
+          <a href="{{ url_for('core') }}" class="btn btn-primary w-100"
+            >Open Core</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-4">
+      <div class="card h-100 private-card">
+        <img
+          src="{{ url_for('static', filename='images/privateelective.jpg') }}"
+          class="card-img-top"
+          alt="Elective Subjects"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Elective Subjects</h5>
+          <p class="card-text">
+            Explore elective resources matched to your selected year group.
+          </p>
+          <a href="{{ url_for('elective') }}" class="btn btn-primary w-100"
+            >Open Elective</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endblock %}
 </div>
-{% endblock %}

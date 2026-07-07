@@ -1,0 +1,44 @@
+{% extends "base.html" %} {% block title %}User Private{% endblock %} {% block
+content %}
+<div class="container mt-5">
+  <h1>Elective Subjects</h1>
+  <p>
+    This page is a resouce hub for the elective subjects we offer, including
+    Coding, Japanese, Chinese and Commerce. The dropbox permits you to view the
+    other year group's information to support your understanding and learning.
+  </p>
+
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-12">
+      <div class="mb-3">
+        <select
+          id="year_group"
+          name="year_group"
+          class="form-select mt-4"
+          required
+        >
+          <option value="" selected disabled>Select your year group</option>
+          <option value="5">Year 5</option>
+          <option value="6">Year 6</option>
+          <option value="7">Year 7</option>
+          <option value="8">Year 8</option>
+          <option value="9">Year 9</option>
+          <option value="10">Year 10</option>
+          <option value="11">Year 11</option>
+          <option value="12">Year 12</option>
+          <option value="Others">
+            Others (Parents, Guardians, Teachers, etc)
+          </option>
+        </select>
+      </div>
+
+      <a
+        href="{{ url_for('userprivate') }}"
+        class="btn btn-primary w-100 mt-3 d-block mx-auto"
+        >Back to Account Page</a
+      >
+    </div>
+  </div>
+</div>
+
+{% endblock %}
