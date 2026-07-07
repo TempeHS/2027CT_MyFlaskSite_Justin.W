@@ -127,10 +127,19 @@ section h2 {
 .navbar .nav-link {
   color: #757ba0 !important; /* normal link color */
   font-family: "Poppins", Arial, sans-serif; /* font */
-  font-size: 19/* size */
+  font-size: 19; /* size */
   font-weight: 600; /* thickness */
 }
 
 .navbar .nav-link:hover {
   color: #022354 !important; /* hover color */
+}
+
+/* User form Subjects*/
+.subjects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+  padding-left: 0;
+  list-style: none;
 }

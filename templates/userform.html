@@ -1,0 +1,58 @@
+{% extends "base.html" %} {% block title %}Welcome{% endblock %} {% block
+content %}
+<div class="container mt-5">
+  <h1>Signup successful.</h1>
+  <p>
+    Welcome to Studylog, {{ name }}! Before you start your study journey, we
+    would like to know what year group you are in.
+  </p>
+
+  <form method="POST" action="#">
+    <div class="row g-4">
+      <div class="col-12 col-md-6">
+        <div class="mb-3">
+          <h2 class="h5 mb-2">Year Group to choose from</h2>
+          <select
+            id="year_group"
+            name="year_group"
+            class="form-select mt-4"
+            required
+          >
+            <option value="" selected disabled>Select your year group</option>
+            <option value="5">Year 5</option>
+            <option value="6">Year 6</option>
+            <option value="7">Year 7</option>
+            <option value="8">Year 8</option>
+            <option value="9">Year 9</option>
+            <option value="10">Year 10</option>
+            <option value="11">Year 11</option>
+            <option value="12">Year 12</option>
+            <option value="12">
+              Others (Parents, Guardians, Teachers, ect)
+            </option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary w-100 mt-3">
+          Continue
+        </button>
+      </div>
+
+      <div class="col-12 col-md-6">
+        <h2 class="h5">Subjects we offer.</h2>
+        <ul class="subjects-grid">
+          <li class="list-group-item">Mathematics</li>
+          <li class="list-group-item">English</li>
+          <li class="list-group-item">Science</li>
+          <li class="list-group-item">History</li>
+          <li class="list-group-item">Geography</li>
+          <li class="list-group-item">Coding</li>
+          <li class="list-group-item">Japanese</li>
+          <li class="list-group-item">Chinese</li>
+          <li class="list-group-item">Commerce</li>
+        </ul>
+      </div>
+    </div>
+  </form>
+</div>
+{% endblock %}
