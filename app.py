@@ -329,11 +329,136 @@ ELECTIVE_FILES = {
             }
         ],
     },
-    "8": {"Coding": [{}], "Japanese": [{}], "Chinese": [{}], "Commerce": [{}]},
-    "9": {"Coding": [{}], "Japanese": [{}], "Chinese": [{}], "Commerce": [{}]},
-    "10": {"Coding": [{}], "Japanese": [{}], "Chinese": [{}], "Commerce": [{}]},
-    "11": {"Coding": [{}], "Japanese": [{}], "Chinese": [{}], "Commerce": [{}]},
-    "12": {"Coding": [{}], "Japanese": [{}], "Chinese": [{}], "Commerce": [{}]},
+    "8": {
+        "Coding": [
+            {
+                "title": "Year 8 Coding - ",
+                "filename": "files/elective/8/coding/.pdf",
+            }
+        ],
+        "Japanese": [
+            {
+                "title": "Year 8 Japanese - Obento revision quiz ",
+                "filename": "files/elective/8/japanese/jap8.pdf",
+            }
+        ],
+        "Chinese": [
+            {
+                "title": "Year 8 Chinese -  ",
+                "filename": "files/elective/8/chinese/.pdf",
+            }
+        ],
+        "Commerce": [
+            {
+                "title": "Year 8 Commerce - ",
+                "filename": "files/elective/8/commerce/.pdf",
+            }
+        ],
+    },
+    "9": {
+        "Coding": [
+            {
+                "title": "Year 9 Coding - CipherForge",
+                "url": "https://hsc-software-engineering.onrender.com/learning/flask-encryption-algorithm/",
+            }
+        ],
+        "Japanese": [
+            {
+                "title": "Year 9 Japanese - ",
+                "filename": "files/elective/9/japanese/.pdf",
+            }
+        ],
+        "Chinese": [
+            {
+                "title": "Year 9 Chinese -  ",
+                "filename": "files/elective/9/chinese/.pdf",
+            }
+        ],
+        "Commerce": [
+            {
+                "title": "Year 9 Commerce - ",
+                "filename": "files/elective/9/commerce/.pdf",
+            }
+        ],
+    },
+    "10": {
+        "Coding": [
+            {
+                "title": "Year 10 Coding - Game Design Theory",
+                "url": "https://hsc-software-engineering.onrender.com/learning/game-design-theory/",
+            }
+        ],
+        "Japanese": [
+            {
+                "title": "Year 10 Japanese - ",
+                "filename": "files/elective/10/japanese/.pdf",
+            }
+        ],
+        "Chinese": [
+            {
+                "title": "Year 10 Chinese -  ",
+                "filename": "files/elective/10/chinese/.pdf",
+            }
+        ],
+        "Commerce": [
+            {
+                "title": "Year 10 Commerce - ",
+                "filename": "files/elective/10/commerce/.pdf",
+            }
+        ],
+    },
+    "11": {
+        "Coding": [
+            {
+                "title": "Year 11 Coding - Algorithm Design",
+                "url": "https://hsc-software-engineering.onrender.com/learning/intro-to-algorithms/",
+            }
+        ],
+        "Japanese": [
+            {
+                "title": "Year 11 Japanese - ",
+                "filename": "files/elective/11/japanese/.pdf",
+            }
+        ],
+        "Chinese": [
+            {
+                "title": "Year 11 Chinese -  ",
+                "filename": "files/elective/11/chinese/.pdf",
+            }
+        ],
+        "Commerce": [
+            {
+                "title": "Year 11 Commerce - ",
+                "filename": "files/elective/11/commerce/.pdf",
+            }
+        ],
+    },
+    "12": {
+        "Coding": [
+            {
+                "title": "Year 12 Coding - HSC examination",
+                "url": "https://fam.hsconline.nesa.nsw.edu.au/",
+            }
+        ],
+        "Japanese": [
+            {
+                "title": "Year 12 Japanese - ",
+                "filename": "files/elective/12/japanese/.pdf",
+            }
+        ],
+        "Chinese": [
+            {
+                "title": "Year 12 Chinese -  ",
+                "filename": "files/elective/12/chinese/.pdf",
+            }
+        ],
+        "Commerce": [
+            {
+                "title": "Year 12 Commerce - ",
+                "filename": "files/elective/12/commerce/.pdf",
+            }
+        ],
+    },
     "Others": {},
 }
 
@@ -480,12 +605,12 @@ def elective():
             for subject, files in year_data.items():
                 elective_files.setdefault(subject, [])
                 for f in files:
-                    elective_files[subject].append(
-                        {
-                            "title": f"[Year {year}] {f['title']}",
-                            "filename": f["filename"],
-                        }
-                    )
+                    item = {"title": f"[Year {year}] {f['title']}"}
+                    if "url" in f:
+                        item["url"] = f["url"]
+                    else:
+                        item["filename"] = f["filename"]
+                    elective_files[subject].append(item)
     else:
         elective_files = ELECTIVE_FILES.get(year_group, {})
 

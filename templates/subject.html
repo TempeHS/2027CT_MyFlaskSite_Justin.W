@@ -2,144 +2,37 @@
 {% block content %}
 <div class="container py-5">
   <h1 class="text-center mb-5">Subjects we offer</h1>
-      <p>
-        In Studylog, we offer materials to a total of 9 subjects; including Mathematics, English, Science, Geography, and Science 
-      </p>
+  <p>
+    In Studylog, we offer students with material to learn about for 9 subjects.
+    For core subjects, we provide knowledge on Mathematics, English, Science,
+    Geography and History. As for the elective subjects, Studylog has gathered
+    materials on Coding, Japanese, Chinese and Commerce. Down below are our
+    description on each subjects we offer.
+  </p>
 
   <div class="row">
-<section class="row align-items-center mb-5">
-    <div class="col-md-6">
-      <img
-        src="{{ url_for('static', filename='images/maths.jpg') }}"
-        class="img-fluid rounded shadow-sm"
-        alt="Project 1 screenshot 1"
-      />
-    </div>
-    <div class="col-md-6">
-      <h3 class="h5 mt-3 mt-md-0">Mathematics</h3>
-      <p>
-        The main lesson I used was the Python Flask & Bootstrap (PFB) lesson. It
-        teaches me what everything does, such as the carousel or the header. It
-        not only teaches how to use PYB but it demonstrates how to apply it onto
-        the website.
-      </p>
-    </div>
-  </section>
-
-      <!-- Contact Info (moved below map) -->
-      <div class="contact-info mt-4">
-        <ul class="list-unstyled">
-  <li class="mb-3">
-    <i class="bi bi-geo-alt-fill text-primary me-2"></i>
-    <strong>Address:</strong><br>
-    <span class="ms-4">123 Main Street, Sydney, NSW 2000</span>
-  </li>
-  <li class="mb-3">
-    <i class="bi bi-telephone-fill text-primary me-2"></i>
-    <strong>Phone:</strong><br>
-    <span class="ms-4">(02) 1234 5678</span>
-  </li>
-  <li class="mb-3">
-    <i class="bi bi-envelope-fill text-primary me-2"></i>
-    <strong>Email:</strong><br>
-    <span class="ms-4"><a href="mailto:info@myflasksite.com">info@myflasksite.com</a></span>
-  </li>
-  <li class="mb-3">
-    <i class="bi bi-clock-fill text-primary me-2"></i>
-    <strong>Hours:</strong><br>
-    <span class="ms-4">Mon-Fri: 9am - 5pm</span>
-  </li>
-</ul>
+    <section class="row align-items-center mb-5">
+      <div class="col-md-6">
+        <img
+          src="{{ url_for('static', filename='images/maths.jpg') }}"
+          class="img-fluid rounded shadow-sm"
+          alt="Project 1 screenshot 1"
+        />
       </div>
-    </div>
-
-    <!-- Form Column -->
-    <div class="col-lg-6 mb-4">
-      <div class="contact-form">
-        <h4 class="mb-4">Send us a Message</h4>
-
-        <form action="#" method="POST">
-          <!-- Success Alert (initially hidden) -->
-          <div class="alert alert-success d-none" id="successAlert">
-            <strong>Thank you!</strong> Your message has been sent. We'll be in
-            touch soon.
-          </div>
-        <form action="#" method="POST">
-          <!-- Name Field -->
-          <div class="mb-3">
-            <label for="name" class="form-label">Your Name *</label>
-            <input
-              type="text"
-              class="form-control"
-              id="name"
-              name="name"
-              placeholder="John Smith"
-              required
-            />
-          </div>
-
-          <!-- Email Field -->
-          <div class="mb-3">
-            <label for="email" class="form-label">Email Address *</label>
-            <input
-              type="email"
-              class="form-control"
-              id="email"
-              name="email"
-              placeholder="john@example.com"
-              required
-            />
-          </div>
-
-          <!-- Subject Field -->
-          <div class="mb-3">
-            <label for="subject" class="form-label">Subject</label>
-            <select class="form-select" id="subject" name="subject">
-              <option value="" selected>Choose a topic...</option>
-              <option value="general">General Inquiry</option>
-              <option value="support">Support</option>
-              <option value="feedback">Feedback</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
-
-          <!-- Message Field -->
-          <div class="mb-3">
-            <label for="message" class="form-label">Message *</label>
-            <textarea
-              class="form-control"
-              id="message"
-              name="message"
-              rows="5"
-              placeholder="How can we help you?"
-              required
-            ></textarea>
-          </div>
-
-          <!-- Submit Button -->
-          <button type="submit" class="btn btn-primary btn-lg w-100">
-            Send Message
-          </button>
-        </form>
+      <div class="col-md-6">
+        <h3 class="h5 mt-3 mt-md-0">Mathematics</h3>
+        <p>
+          This website provides students with materials on a rage of different
+          math topics. For stage 3, we offer worksheets on topics such as
+          geometry and division. For stage 4, some topics that we provide are
+          linear relationships and introduction to trigonometry. Studylog also
+          provides further graph related information and questions for stage 5
+          students, and for stage 6, they get advanced trigonometry and past HSC
+          paper. With these materials provided, it could support the boost, and
+          allow you students to accel in mathematics.
+        </p>
       </div>
-    </div>
+    </section>
   </div>
 </div>
-{% block extra_js %}
-<script>
-  const form = document.querySelector('.contact-form form');
-  const alert = document.getElementById('successAlert');
-  
-  form.addEventListener('submit', function(e) {
-    e.preventDefault();  // Stop actual submission
-    
-    // Show success message
-    alert.classList.remove('d-none');
-    alert.scrollIntoView({ behavior: 'smooth' });
-    
-    // Reset form
-    form.reset();
-  });
-</script>
-{% endblock %}
 {% endblock %}
