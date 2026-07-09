@@ -38,34 +38,130 @@ CORE_FILES = {
     "5": {
         "Mathematics": [
             {
-                "title": "Year 11 Maths - Algebra Notes",
-                "filename": "files/core/11/mathematics/algebra-notes.pdf",
+                "title": "Year 5 Maths - Mental division worksheet",
+                "filename": "files/core/5/mathematics/y5d.pdf",
             }
-        ]
+        ],
+        "English": [
+            {
+                "title": "Year 5 English - ",
+                "filename": "files/core/5/english/af5.pdf",
+            }
+        ],
+        "Science": [
+            {
+                "title": "Year 5 Science - Glass animals - biology",
+                "filename": "files/core/5/science/gab5.pdf",
+            }
+        ],
+        "Geography": [
+            {
+                "title": "Year 5 Geography - Basic geographic skill quiz",
+                "filename": "files/core/5/geography/bgs5.pdf",
+            }
+        ],
+        "History": [
+            {
+                "title": "Year 5 History - Aboriginal and European contact worksheet",
+                "filename": "files/core/5/history/aueu5.pdf",
+            }
+        ],
     },
     "6": {
         "Mathematics": [
             {
-                "title": "Year 11 Maths - Algebra Notes",
-                "filename": "files/core/11/mathematics/algebra-notes.pdf",
+                "title": "Year 6 Maths - Perimeter and Area mini test",
+                "filename": "files/core/6/mathematics/panda6.pdf",
             }
-        ]
+        ],
+        "English": [
+            {
+                "title": "Year 6 English - Grammar and figurative language skills",
+                "filename": "files/core/6/english/gs6.pdf",
+            }
+        ],
+        "Science": [
+            {
+                "title": "Year 6 Science - Periodic Table",
+                "filename": "files/core/6/science/table.pdf",
+            }
+        ],
+        "Geography": [
+            {
+                "title": "Year 6 Geography - Western Australia sample task; Australia and Asia",
+                "filename": "files/core/6/geography/st6.pdf",
+            }
+        ],
+        "History": [
+            {
+                "title": "Year 6 History - History of Australia's Parliament House",
+                "filename": "files/core/6/history/parh6.pdf",
+            }
+        ],
     },
     "7": {
         "Mathematics": [
             {
-                "title": "Year 11 Maths - Algebra Notes",
-                "filename": "files/core/11/mathematics/algebra-notes.pdf",
+                "title": "Year 7 Maths - Linear relationship workbook",
+                "filename": "files/core/7/mathematics/lin7.pdf",
             }
-        ]
+        ],
+        "English": [
+            {
+                "title": "Year 7 English - Introduction to Shakespeare",
+                "filename": "files/core/7/english/introshake.pdf",
+            }
+        ],
+        "Science": [
+            {
+                "title": "Year 7 Science - Circuit and electricity notes",
+                "filename": "files/core/7/science/cirnotes.pdf",
+            }
+        ],
+        "Geography": [
+            {
+                "title": "Year 7 Geography - Flood; reading activity ",
+                "filename": "files/core/7/geography/flood.pdf",
+            }
+        ],
+        "History": [
+            {
+                "title": "Year 7 History - Ancient China vocabulary ",
+                "filename": "files/core/7/history/anccvocab.pdf",
+            }
+        ],
     },
     "8": {
         "Mathematics": [
             {
-                "title": "Year 11 Maths - Algebra Notes",
-                "filename": "files/core/11/mathematics/algebra-notes.pdf",
+                "title": "Year 8 Maths - Fill in the blank; Trigonometry",
+                "filename": "files/core/8/mathematics/trig.pdf",
             }
-        ]
+        ],
+        "English": [
+            {
+                "title": "Year 8 English - Tempe High School Practice exam",
+                "filename": "files/core/8/english/epe8.pdf",
+            }
+        ],
+        "Science": [
+            {
+                "title": "Year 8 Science - Ecosystem information",
+                "filename": "files/core/8/science/ecosystems.pdf",
+            }
+        ],
+        "Geography": [
+            {
+                "title": "Year 8 Geography - Map skills",
+                "filename": "files/core/8/geography/ms8.pdf",
+            }
+        ],
+        "History": [
+            {
+                "title": "Year 8 History - Black Death worksheet",
+                "filename": "files/core/8/history/bd8.pdf",
+            }
+        ],
     },
     "9": {
         "Mathematics": [
@@ -80,114 +176,165 @@ CORE_FILES = {
                 "filename": "files/core/9/english/monkeyspaw.pdf",
             }
         ],
+        "Science": [
+            {
+                "title": "Year 9 Science - Practice questions of drawing circuits",
+                "filename": "files/core/9/science/Circuitpractice.pdf",
+            }
+        ],
+        "Geography": [
+            {
+                "title": "Year 9 Geography - Water Cycle worksheet",
+                "filename": "files/core/9/geography/water.pdf",
+            }
+        ],
+        "History": [
+            {
+                "title": "Year 9 History - Earth history quiz",
+                "filename": "files/core/9/history/history9.pdf",
+            }
+        ],
     },
     "10": {
         "Mathematics": [
             {
-                "title": "Year 11 Maths - Algebra Notes",
-                "filename": "files/core/11/mathematics/algebra-notes.pdf",
+                "title": "Year 10 Maths - Parabola and Rates of Change revision",
+                "filename": "files/core/10/mathematics/pararate10.pdf",
             }
-        ]
+        ],
+        "English": [
+            {
+                "title": "Year 10 English - Romeo and Juliet workbook",
+                "filename": "files/core/10/english/rajw10.pdf",
+            }
+        ],
+        "Science": [
+            {
+                "title": "Year 10 Science - 2012 Past paper for Chemistry",
+                "filename": "files/core/10/science/ppchem10.pdf",
+            }
+        ],
+        "Geography": [
+            {
+                "title": "Year 10 Geography - Australian Geography Competition 2025 ",
+                "filename": "files/core/10/geography/agc10.pdf",
+            }
+        ],
+        "History": [
+            {
+                "title": "Year 10 History - Australian History Competition 2023: Questions ",
+                "filename": "files/core/10/history/ahcq10.pdf",
+            },
+            {
+                "title": "Year 10 History - Australian History Competition 2023: Source ",
+                "filename": "files/core/10/history/ahca10.pdf",
+            },
+        ],
     },
     "11": {
         "Mathematics": [
             {
-                "title": "Year 11 Maths - Algebra Notes",
-                "filename": "files/core/11/mathematics/algebra-notes.pdf",
+                "title": "Year 11 Maths - Advanced Trigonometric Equations",
+                "filename": "files/core/11/mathematics/trig11.pdf",
             }
-        ]
+        ],
+        "English": [
+            {
+                "title": "Year 11 English - Sample Essay of Never Let Me Go and Blade Runner",
+                "filename": "files/core/11/english/sampess11.pdf",
+            }
+        ],
+        "Science": [
+            {
+                "title": "Year 11 Science - Biology Revision",
+                "filename": "files/core/11/science/biorev11.pdf",
+            }
+        ],
+        "Geography": [
+            {
+                "title": "Year 11 Geography - Asian Geography",
+                "filename": "files/core/11/geography/asia11.pdf",
+            }
+        ],
+        "History": [
+            {
+                "title": "Year 11 History - Sample end of year exam paper",
+                "filename": "files/core/11/history/seoyep11.pdf",
+            }
+        ],
     },
     "12": {
         "Mathematics": [
             {
-                "title": "Year 12 Maths - Calculus Notes",
-                "filename": "files/core/12/mathematics/calculus-notes.pdf",
+                "title": "Year 12 Maths - Extension 1 HSC 2025",
+                "filename": "files/core/12/mathematics/ext1mat12.pdf",
             }
-        ]
-    },
-    "Others": {
-        "Mathematics": [
+        ],
+        "English": [
             {
-                "title": "Year 11 Maths - Algebra Notes",
-                "filename": "files/core/11/mathematics/algebra-notes.pdf",
+                "title": "Year 12 English - Advanced paper 1 HSC 2024 ",
+                "filename": "files/core/12/english/aep12.pdf",
+            },
+            {
+                "title": "Year 12 English - Advanced paper 2 HSC 2024 ",
+                "filename": "files/core/12/english/aes12.pdf",
+            },
+        ],
+        "Science": [
+            {
+                "title": "Year 12 Science - Physics HSC 2025",
+                "filename": "files/core/12/science/phy12.pdf",
             }
-        ]
+        ],
+        "Geography": [
+            {
+                "title": "Year 12 Geography - Geography HSC 2025",
+                "filename": "files/core/12/geography/geo12.pdf",
+            }
+        ],
+        "History": [
+            {
+                "title": "Year 12 History - Modern History HSC 2025",
+                "filename": "files/core/12/history/modhis12.pdf",
+            }
+        ],
     },
+    "Others": {},
 }
 
 ELECTIVE_FILES = {
-    "5": {
-        "Mathematics": [
-            {
-                "title": "Year 11 Maths - Algebra Notes",
-                "filename": "files/core/11/mathematics/algebra-notes.pdf",
-            }
-        ]
-    },
-    "6": {
-        "Mathematics": [
-            {
-                "title": "Year 11 Maths - Algebra Notes",
-                "filename": "files/core/11/mathematics/algebra-notes.pdf",
-            }
-        ]
-    },
     "7": {
-        "Mathematics": [
+        "Coding": [
             {
-                "title": "Year 11 Maths - Algebra Notes",
-                "filename": "files/core/11/mathematics/algebra-notes.pdf",
+                "title": "Year 7 Coding - PC component terminology quiz",
+                "filename": "files/elective/7/coding/terms.pdf",
             }
-        ]
-    },
-    "8": {
-        "Mathematics": [
+        ],
+        "Japanese": [
             {
-                "title": "Year 11 Maths - Algebra Notes",
-                "filename": "files/core/11/mathematics/algebra-notes.pdf",
+                "title": "Year 7 Japanese - Family vocabulary worksheet",
+                "filename": "files/elective/7/japanese/Famvocab.pdf",
             }
-        ]
-    },
-    "9": {
-        "Mathematics": [
+        ],
+        "Chinese": [
             {
-                "title": "Year 11 Maths - Algebra Notes",
-                "filename": "files/core/11/mathematics/algebra-notes.pdf",
+                "title": "Year 7 Chinese - Western Australia sample assessment task; Family",
+                "filename": "files/elective/7/chinese/yr7sampchina.pdf",
             }
-        ]
-    },
-    "10": {
-        "Mathematics": [
+        ],
+        "Commerce": [
             {
-                "title": "Year 11 Maths - Algebra Notes",
-                "filename": "files/core/11/mathematics/algebra-notes.pdf",
+                "title": "Year 7 Commerce - Economy quiz ",
+                "filename": "files/elective/7/commerce/ecquiz.pdf",
             }
-        ]
+        ],
     },
-    "11": {
-        "Mathematics": [
-            {
-                "title": "Year 11 Maths - Algebra Notes",
-                "filename": "files/core/11/mathematics/algebra-notes.pdf",
-            }
-        ]
-    },
-    "12": {
-        "Mathematics": [
-            {
-                "title": "Year 12 Maths - Calculus Notes",
-                "filename": "files/core/12/mathematics/calculus-notes.pdf",
-            }
-        ]
-    },
-    "Others": {
-        "Mathematics": [
-            {
-                "title": "Year 11 Maths - Algebra Notes",
-                "filename": "files/core/11/mathematics/algebra-notes.pdf",
-            }
-        ]
-    },
+    "8": {"Coding": [{}], "Japanese": [{}], "Chinese": [{}], "Commerce": [{}]},
+    "9": {"Coding": [{}], "Japanese": [{}], "Chinese": [{}], "Commerce": [{}]},
+    "10": {"Coding": [{}], "Japanese": [{}], "Chinese": [{}], "Commerce": [{}]},
+    "11": {"Coding": [{}], "Japanese": [{}], "Chinese": [{}], "Commerce": [{}]},
+    "12": {"Coding": [{}], "Japanese": [{}], "Chinese": [{}], "Commerce": [{}]},
+    "Others": {},
 }
 
 
@@ -323,13 +470,37 @@ def elective():
     if not year_group:
         return redirect(url_for("userform"))
 
-    subjects = CORE.get(year_group, [])
+    subjects = ELECTIVE.get(year_group, [])
+
+    if year_group == "Others":
+        elective_files = {}
+        for year, year_data in ELECTIVE_FILES.items():
+            if year == "Others":
+                continue
+            for subject, files in year_data.items():
+                elective_files.setdefault(subject, [])
+                for f in files:
+                    elective_files[subject].append(
+                        {
+                            "title": f"[Year {year}] {f['title']}",
+                            "filename": f["filename"],
+                        }
+                    )
+    else:
+        elective_files = ELECTIVE_FILES.get(year_group, {})
+
     return render_template(
         "elective.html",
         year_group=year_group,
         year_groups=YEAR_GROUPS,
         subjects=subjects,
+        elective_files=elective_files,
     )
+
+
+@app.route("/subject")
+def subject():
+    return render_template("subject.html")
 
 
 if __name__ == "__main__":
