@@ -96,8 +96,29 @@ block content %}
 
 <!-- Rest of page content -->
 <div class="container mt-5">
-  <h1>Welcome!</h1>
-  <p class="lead">This site is built with Flask and Bootstrap.</p>
+  <div class="row">
+    <div class="col-md-8">
+      <h1>Welcome!</h1>
+      <p class="lead">
+        Studylog is an online website designed to support students from stage 3
+        to stage 6 in a range of core and elective subjects. This site will act
+        as a source of summarised notes for students, featuring textbooks and
+        online resources.To learn using Studylog, simply sign up and select your
+        age group! Our website will automatically customize the resoruce page to
+        provide you with the resources that suits your own year group level
+        more. Learn smarter, stay organised, and start achieve more with
+        Studylog from today.
+      </p>
+    </div>
+
+    <div class="col-md-3">
+      <img
+        src="{{ url_for('static', filename='images/welcome.jpg') }}"
+        class="img-fluid rounded shadow welcome-img"
+        alt="Studylog icon-logo"
+      />
+    </div>
+  </div>
 </div>
 
 <!-- Hero Carousel (keep your existing carousel here) -->
@@ -108,29 +129,10 @@ block content %}
 <!-- Feature Cards Section -->
 <section class="py-5">
   <div class="container">
-    <h2 class="text-center mb-4">Our Features</h2>
+    <h2 class="text-center mb-4">What We Offer</h2>
 
     <div class="row">
       <!-- Card 1 -->
-      <div class="col-md-4 mb-4">
-        <div class="card h-100">
-          <img
-            src="{{ url_for('static', filename='images/feature1.jpg') }}"
-            class="card-img-top"
-            alt="Feature 1"
-          />
-          <div class="card-body">
-            <h5 class="card-title">Fast & Reliable</h5>
-            <p class="card-text">
-              Our platform is optimized for speed and reliability, ensuring a
-              seamless experience.
-            </p>
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Card 2 -->
       <div class="col-md-4 mb-4">
         <div class="card h-100">
           <img
@@ -139,15 +141,38 @@ block content %}
             alt="Feature 2"
           />
           <div class="card-body">
-            <h5 class="card-title">Easy to Use</h5>
+            <h5 class="card-title">About Us</h5>
             <p class="card-text">
-              Simple and intuitive interface designed with users in mind.
+              Who we are and how this website was designed and created.
             </p>
-            <a href="#" class="btn btn-primary">Learn More</a>
+            <a href="{{ url_for('aboutus') }}" class="btn btn-primary"
+              >Learn More</a
+            >
           </div>
         </div>
       </div>
 
+      <!-- Card 2 -->
+
+      <div class="col-md-4 mb-4">
+        <div class="card h-100">
+          <img
+            src="{{ url_for('static', filename='images/feature1.jpg') }}"
+            class="card-img-top"
+            alt="Feature 1"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Core and Elective Subjects</h5>
+            <p class="card-text">
+              We offer 9 subjects in total. Click below to learn more about
+              them.
+            </p>
+            <a href="{{ url_for('subject') }}" class="btn btn-primary"
+              >Subject Options</a
+            >
+          </div>
+        </div>
+      </div>
       <!-- Card 3 -->
       <div class="col-md-4 mb-4">
         <div class="card h-100">
@@ -157,7 +182,7 @@ block content %}
             alt="Feature 3"
           />
           <div class="card-body">
-            <h5 class="card-title">24/7 Support</h5>
+            <h5 class="card-title">Online Support</h5>
             <p class="card-text">
               Our dedicated team is here to help you anytime you need
               assistance.
@@ -171,4 +196,80 @@ block content %}
     </div>
   </div>
 </section>
+
+<section class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Reviews</h2>
+
+    <div class="row">
+      <div class="col-md-3">
+        <img
+          src="{{ url_for('static', filename='images/review.jpg') }}"
+          class="img-fluid rounded shadow review-img"
+          alt="👍"
+        />
+      </div>
+      <!-- Review 1 -->
+      <div class="col-md-3 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Ibuki S</h5>
+            <p class="card-text">Year 9 student</p>
+            <p class="card-text">⭐⭐⭐⭐</p>
+            <p class="card-text">
+              Very good information for my end of term maths assessment. It is
+              free to use so I can study everyday.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="col-md-3 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Himmel F</h5>
+            <p class="card-text">Others (Parents, Guardians, Teachers)</p>
+            <p class="card-text">⭐⭐⭐⭐</p>
+            <p class="card-text">
+              Decent range of materials for me to give to my student as practice
+              questions.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="col-md-3 mb-4">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">Tora T</h5>
+            <p class="card-text">Year 10 student</p>
+            <p class="card-text">⭐⭐⭐⭐⭐</p>
+            <p class="card-text">
+              Very well made website. Allows me to navigate myself pretty
+              simply. The resources are also relevant to what is being thought
+              at school. Would recommend trying.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container mt-5 mb-5 pb-5">
+  <div class="row align-items-center">
+    <div class="col-md-6">
+      <h1>What are you waiting for?</h1>
+      <h1>Start learning today!</h1>
+    </div>
+    <div class="col-md-6 d-flex flex-column gap-2">
+      <a href="{{ url_for('signup') }}" class="btn btn-primary w-100"
+        >Sign Up</a
+      >
+      <a href="{{ url_for('login') }}" class="btn btn-primary w-100">Login</a>
+    </div>
+  </div>
+</div>
 {% endblock %}
