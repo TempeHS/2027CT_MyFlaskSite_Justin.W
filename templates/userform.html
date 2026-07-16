@@ -1,33 +1,30 @@
-{% extends "base.html" %} {% block title %}Welcome{% endblock %} {% block
-content %}
+{% extends "base.html" %}
+{% block title %}Welcome{% endblock %}
+{% block content %}
 <div class="container mt-5">
   <h1>Signup successful.</h1>
-  <p>
-    Welcome to Studylog, {{ name }}! Before you start your study journey, we
-    would like to know what year group you are in.
-  </p>
+  <p>Welcome to Studylog, {{ name }}! Before you start your study journey, we would like to know what year group you are
+    in.</p>
 
-<form method="POST" action="{{ url_for('userform') }}">
-  <div class="row g-4">
-    <div class="col-12 col-md-6">
-      <div class="mb-3">
-        <h2 class="h5 mb-2">Year Group to choose from</h2>
-        <select id="year_group" name="year_group" class="form-select mt-4" required>
-          <option value="" disabled {% if not selected_year %}selected{% endif %}>Select your year group</option>
-          {% for yg in year_groups %}
-          <option value="{{ yg }}" {% if yg == selected_year %}selected{% endif %}>
-            {{ "Year " ~ yg if yg != "Others" else "Others (Parents, Guardians, Teachers, etc)" }}
-          </option>
-          {% endfor %}
-        </select>
-      </div>
-      <button type="submit" class="btn btn-primary w-100 mt-3">Continue</button>
-    </div>
-  </div>
-</form>
 
+  <form method="POST" action="{{ url_for('userform') }}">
+    <div class="row g-4">
       <div class="col-12 col-md-6">
-        <h2 class="h5">Subjects we offer.</h2>
+        <div class="mb-3">
+          <h2 class="h5 mb-2">Year Group to choose from</h2>
+          <select id="year_group" name="year_group" class="form-select mt-4" required>
+            <option value="" disabled {% if not selected_year %}selected{% endif %}>Select your year group</option>
+            {% for yg in year_groups %}
+            {% if yg != "Others" %}
+            <option value="{{ yg }}" {% if yg==selected_year %}selected{% endif %}>Year {{ yg }}</option>
+            {% else %}
+            <option value="{{ yg }}" {% if yg==selected_year %}selected{% endif %}>Others (Parents, Guardians, Teachers, etc)</option>
+            {% endif %}
+            {% endfor %}
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary w-100 mt-3 mb-4">Continue</button>
+        <h2 class="h5">Subjects we offer</h2>
         <ul class="subjects-grid">
           <li class="list-group-item">Mathematics</li>
           <li class="list-group-item">English</li>
@@ -40,7 +37,12 @@ content %}
           <li class="list-group-item">Commerce</li>
         </ul>
       </div>
+      <div class="col-md-6">
+        <img src="{{ url_for('static', filename='images/userform.jpg') }}" class="img-fluid rounded shadow-sm"
+          alt="Studying" />
+      </div>
     </div>
   </form>
 </div>
 {% endblock %}
+
