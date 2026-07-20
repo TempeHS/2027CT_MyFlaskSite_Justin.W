@@ -1,59 +1,103 @@
-# Project Title
+# Website Name
 
-Simple overview of use/purpose.
+| Field                          | Detail |
+| ------------------------------ | ------ |
+| **Website Title**              |        |
+| **Student Name(s)**            |        |
+| **Class / Course**             |        |
+| **Repository**                 |        |
+| **Live Site / Codespaces URL** |        |
+| **Date**                       |        |
 
-## Description
+> Your website is the main piece of work. This README is short on purpose — it
+> points a reader to your **2-minute walkthrough** and gives an honest
+> **evaluation of what you delivered**.
 
-An in-depth paragraph about your project and overview of use.
+---
 
-## Getting Started
+## 1. Overview
 
-### Dependencies
+**Purpose:** <!-- One or two sentences: what the site is and why it exists (from your Statement of Intent). -->
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+**Target audience:** <!-- One sentence: who the site is for (from your personas). -->
 
-### Installing
+**Technology stack:** Python Flask · Jinja2 templates · Bootstrap (CDN) · custom CSS · pytest
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+---
 
-### Executing program
+## 2. Walkthrough Video (2 minutes)
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+This is the most important part of your documentation — it shows your website running.
 
-## Help
+<!--
+  Embed a ~2 minute walkthrough. Replace VIDEO_ID with your YouTube video ID:
+  [![Website Walkthrough](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+  OR link a screen recording stored in the repository:
+  [Watch the Walkthrough](./docs/walkthrough.mp4)
+-->
 
-## Authors
+| Field            | Detail |
+| ---------------- | ------ |
+| **Link / Embed** |        |
+| **Duration**     |        |
 
-Contributors names and contact info
+**Your walkthrough should show:**
 
-ex. Mr Jones
-ex. [@benpaddlejones](https://github.com/benpaddlejones)
+- A tour of each page (Home and Contact)
+- Your key Bootstrap components working (navbar, carousel, cards, map, form)
+- The layout responding when the window is resized (navbar collapsing to a hamburger)
 
-## Version History
+---
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]() or see [branch]()
-* 0.1
-    * Initial Release
+## 3. Evaluation — Did You Deliver Your Statement of Intent?
 
-## License
+This is the most important written part of your documentation. Evaluate the
+website you **delivered** against the **Statement of Intent** you wrote during
+planning. Be honest and use evidence — point to a page, a feature or a test.
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+### 3.1 Your Statement of Intent
 
-## Acknowledgments
+<!-- Paste the Statement of Intent you wrote during planning so the reader can judge your site against it. -->
 
-Inspiration, code snippets, etc.
-* [Github md syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-* [TempeHS Python Flask template](https://github.com/TempeHS/TempeHS_Python-Flask_DevContainer)
+### 3.2 What You Delivered
+
+| Page    | Route      | What it delivers |
+| ------- | ---------- | ---------------- |
+| Home    | `/`        |                  |
+| Contact | `/contact` |                  |
+
+### 3.3 Evaluation Against Your Intent (2–3 paragraphs)
+
+> Take each aim in your Statement of Intent and evaluate **how well the
+> delivered site meets it**. Where did you meet your intent? Where did you fall
+> short, and why? Support every judgement with evidence from your site.
+
+<!-- Write 2–3 paragraphs. -->
+
+### 3.4 Overall Effectiveness (1–2 paragraphs)
+
+> Step back from the detail. Overall, **how effective** is the website at
+> achieving its purpose for its target audience? Weigh what works against what
+> falls short, and state what you would improve to better meet your intent.
+
+<!-- Write 1–2 paragraphs. -->
+
+---
+
+## 4. Acknowledgements
+
+> List anything you did not make yourself — tutorials, images, fonts, icons and
+> libraries. Using content without acknowledgement may constitute academic
+> misconduct.
+
+| What you used | Source / Creator | Licence | What you used it for   |
+| ------------- | ---------------- | ------- | ---------------------- |
+| Bootstrap     | Bootstrap team   | MIT     | Layout and components  |
+| Flask         | Pallets Projects | BSD     | Web server and routing |
+|               |                  |         |                        |
+|               |                  |         |                        |
+
+---
+
+> **Student Declaration:** All work submitted is my own except where explicitly acknowledged above.
