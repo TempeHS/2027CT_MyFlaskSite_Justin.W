@@ -2,12 +2,12 @@
 
 | Field                          | Detail |
 | ------------------------------ | ------ |
-| **Website Title**              |        |
-| **Student Name(s)**            |        |
-| **Class / Course**             |        |
-| **Repository**                 |        |
-| **Live Site / Codespaces URL** |        |
-| **Date**                       |        |
+| **Website Title**              |Studylog        |
+| **Student Name(s)**            |Justin Wong        |
+| **Class / Course**             |9CT1; 2027 Computer Technologies     |
+| **Repository**                 |2027CT_MyFlaskSite_Justin.W        |
+| **Live Site / Codespaces URL** |https://super-orbit-wr655qp7qxwqcgvgp-5000.app.github.dev/        |
+| **Date**                       |31/7/26        |
 
 > Your website is the main piece of work. This README is short on purpose — it
 > points a reader to your **2-minute walkthrough** and gives an honest
