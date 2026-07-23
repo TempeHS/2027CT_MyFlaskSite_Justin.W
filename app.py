@@ -38,7 +38,8 @@ CORE_FILES = {
     "5": {
         "Mathematics": [
             {
-                "title": "Year 5 Maths - Mental division worksheet",
+                "title": "Year 5 Maths - Mental division questions",
+                "filename": "files/core/5/mathematics/div5.pdf",
             }
         ],
         "English": [
@@ -80,7 +81,7 @@ CORE_FILES = {
         ],
         "Geography": [
             {
-                "title": "Year 6 Geography - Western Australia sample task; Australia and Asia",
+                "title": "Year 6 Geography - Australia and Asia",
             }
         ],
         "History": [
@@ -90,11 +91,7 @@ CORE_FILES = {
         ],
     },
     "7": {
-        "Mathematics": [
-            {
-                "title": "Year 7 Maths - Linear relationship workbook",
-            }
-        ],
+        "Mathematics": [{"title": "Year 7 Maths - Linear relationship Test"}],
         "English": [
             {
                 "title": "Year 7 English - Introduction to Shakespeare",
@@ -124,7 +121,7 @@ CORE_FILES = {
         ],
         "English": [
             {
-                "title": "Year 8 English - Tempe High School Practice exam",
+                "title": "Year 8 English - Essay writing practice exam",
             }
         ],
         "Science": [
@@ -146,7 +143,8 @@ CORE_FILES = {
     "9": {
         "Mathematics": [
             {
-                "title": "Year 9 Maths - Linear Relationships textbook",
+                "title": "Year 9 Maths - Linear Relationships Test",
+                "filename": "files/core/9/mathematics/linear7.pdf",
             }
         ],
         "English": [
@@ -183,20 +181,20 @@ CORE_FILES = {
         ],
         "Science": [
             {
-                "title": "Year 10 Science - 2012 Past paper for Chemistry",
+                "title": "Year 10 Science - Chemistry notes",
             }
         ],
         "Geography": [
             {
-                "title": "Year 10 Geography - Australian Geography Competition 2025 ",
+                "title": "Year 10 Geography - Gradient skills",
             }
         ],
         "History": [
             {
-                "title": "Year 10 History - Australian History Competition 2023: Questions ",
+                "title": "Year 10 History - History exam: Questions ",
             },
             {
-                "title": "Year 10 History - Australian History Competition 2023: Source ",
+                "title": "Year 10 History - History exam: Source ",
             },
         ],
     },
@@ -231,29 +229,31 @@ CORE_FILES = {
         "Mathematics": [
             {
                 "title": "Year 12 Maths - Extension 1 HSC 2025",
+                "url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/hsc-exam-papers/mathematics-extension-1/2025",
             }
         ],
         "English": [
             {
                 "title": "Year 12 English - Advanced paper 1 HSC 2024 ",
-            },
-            {
-                "title": "Year 12 English - Advanced paper 2 HSC 2024 ",
-            },
+                "url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/hsc-exam-papers/english-advanced/2024",
+            }
         ],
         "Science": [
             {
-                "title": "Year 12 Science - Physics HSC 2025",
+                "title": "Year 12 Science - Physics HSC 2024",
+                "url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/hsc-exam-papers/physics/2024",
             }
         ],
         "Geography": [
             {
                 "title": "Year 12 Geography - Geography HSC 2025",
+                "url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/hsc-exam-papers/geography/2025",
             }
         ],
         "History": [
             {
                 "title": "Year 12 History - Modern History HSC 2025",
+                "url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/hsc-exam-papers/modern-history/2025",
             }
         ],
     },
@@ -265,6 +265,7 @@ ELECTIVE_FILES = {
         "Coding": [
             {
                 "title": "Year 7 Coding - PC component terminology quiz",
+                "filename": "files/elective/7/coding/code7.pdf",
             }
         ],
         "Japanese": [
@@ -274,7 +275,7 @@ ELECTIVE_FILES = {
         ],
         "Chinese": [
             {
-                "title": "Year 7 Chinese - Western Australia sample assessment task; Family",
+                "title": "Year 7 Chinese - Sample assessment task; Family",
             }
         ],
         "Commerce": [
@@ -291,7 +292,7 @@ ELECTIVE_FILES = {
         ],
         "Japanese": [
             {
-                "title": "Year 8 Japanese - Obento revision quiz ",
+                "title": "Year 8 Japanese - Revision quiz ",
             }
         ],
         "Chinese": [
@@ -315,6 +316,7 @@ ELECTIVE_FILES = {
         "Japanese": [
             {
                 "title": "Year 9 Japanese - New Japanese-Language Proficiency Test Sample Questions - N5",
+                "url": "https://www.jlpt.jp/e/samples/n5/index.html",
             }
         ],
         "Chinese": [
@@ -337,7 +339,7 @@ ELECTIVE_FILES = {
         ],
         "Japanese": [
             {
-                "title": "Year 10 Japanese - Western Australia sample assessment task; School life ",
+                "title": "Year 10 Japanese - Sample assessment task; School life ",
             }
         ],
         "Chinese": [
@@ -360,15 +362,14 @@ ELECTIVE_FILES = {
         "Japanese": [
             {
                 "title": "Year 11 Japanese - New Japanese-Language Proficiency Test Sample Questions - N4",
+                "url": "",
             }
         ],
         "Chinese": [
             {
                 "title": "Year 11 Chinese - 2024 HSC Beginners Exam Paper",
-            },
-            {
-                "title": "Year 11 Chinese - 2024 HSC Beginners Transcript Paper",
-            },
+                "url": "https://www.jlpt.jp/e/samples/n4/index.html",
+            }
         ],
         "Commerce": [
             {
@@ -385,20 +386,20 @@ ELECTIVE_FILES = {
         ],
         "Japanese": [
             {
-                "title": "Year 12 Japanese - 2025 ATAR Japanese Second Language examination",
+                "title": "Year 12 Japanese - New Japanese-Language Proficiency Test Sample Questions - N3",
+                "url": "https://www.jlpt.jp/e/samples/n3/index.html",
             }
         ],
         "Chinese": [
             {
                 "title": "Year 12 Chinese - 2025 HSC Continuers Exam Paper",
-            },
-            {
-                "title": "Year 12 Chinese - 2025 HSC Continuers Transcript Paper",
-            },
+                "url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/hsc-exam-papers/chinese-continuers/2025",
+            }
         ],
         "Commerce": [
             {
                 "title": "Year 12 Commerce - 2025 HSC Business Studies examination",
+                "url": "https://www.nsw.gov.au/education-and-training/nesa/curriculum/hsc-exam-papers/business-studies/2025",
             }
         ],
     },
