@@ -1,4 +1,4 @@
-<img width="1890" height="908" alt="form" src="https://github.com/user-attachments/assets/974e2394-3fdd-410b-ba5a-da2bf440564e" /><img width="1890" height="908" alt="fullsignup" src="https://github.com/user-attachments/assets/5a230053-6b5d-469e-8b4f-b220bf210a52" /><img width="1890" height="908" alt="fullsignup" src="https://github.com/user-attachments/assets/1031fa6d-590a-450f-bb64-980e48eaee2e" />># Website Name
+>># Website Name
 
 | Field                          | Detail |
 | ------------------------------ | ------ |
@@ -41,9 +41,10 @@ This is the most important part of your documentation — it shows your website 
 <img width="800" height="384" alt="about us" src="https://github.com/user-attachments/assets/1f424416-3353-4685-8521-b924abd7670b" />
 <img width="800" height="384" alt="subject" src="https://github.com/user-attachments/assets/57752d53-6f02-4b2d-9158-e73abc365168" />
 <img width="800" height="384" alt="contact us" src="https://github.com/user-attachments/assets/c155c4c2-d4af-417c-83fc-2c134f1fcfc6" />
-<img width="800" height="384" alt="signup" src="https://github.com/user-attachments/assets/8beb18b1-977f-4413-80f8-952319d74a60" />
+<img width="800" height="384" alt="subjects" src="https://github.com/user-attachments/assets/c1ec2dce-602c-4cc1-b106-1cebb66fbe44" />
 <img width="800" height="384" alt="year form and dashboard" src="https://github.com/user-attachments/assets/0f7191ed-9ff0-4682-a42e-c2dab6c1675a" />
-<img width="800" height="384" alt="core" src="https://github.com/user-attachments/assets/e6dba3f6-b8ef-452e-8d24-d57d626fe07e" />
+<img width="800" height="384" alt="core" src="https://github.com/user-attachments/assets/129f79c6-663a-4237-a23d-c00650280ce6" />
+<img width="800" height="384" alt="fixedelective" src="https://github.com/user-attachments/assets/7385db35-b3d3-4622-89c1-230d0c1344c7" />
 <img width="800" height="384" alt="elective" src="https://github.com/user-attachments/assets/66557504-2d8e-4a22-ab2a-0ca8b25e488f" />
 <img width="800" height="384" alt="login" src="https://github.com/user-attachments/assets/e392bb06-45ba-4775-a0fd-a5afaa2c7a06" />
 
