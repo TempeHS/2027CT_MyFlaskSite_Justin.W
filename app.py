@@ -39,31 +39,26 @@ CORE_FILES = {
         "Mathematics": [
             {
                 "title": "Year 5 Maths - Mental division worksheet",
-                "filename": "files/core/5/mathematics/y5d.pdf",
             }
         ],
         "English": [
             {
                 "title": "Year 5 English - After the Flood",
-                "filename": "files/core/5/english/af5.pdf",
             }
         ],
         "Science": [
             {
                 "title": "Year 5 Science - Glass animals - biology",
-                "filename": "files/core/5/science/gab5.pdf",
             }
         ],
         "Geography": [
             {
                 "title": "Year 5 Geography - Basic geographic skill quiz",
-                "filename": "files/core/5/geography/bgs5.pdf",
             }
         ],
         "History": [
             {
                 "title": "Year 5 History - Aboriginal and European contact worksheet",
-                "filename": "files/core/5/history/aueu5.pdf",
             }
         ],
     },
@@ -71,31 +66,26 @@ CORE_FILES = {
         "Mathematics": [
             {
                 "title": "Year 6 Maths - Perimeter and Area mini test",
-                "filename": "files/core/6/mathematics/panda6.pdf",
             }
         ],
         "English": [
             {
                 "title": "Year 6 English - Grammar and figurative language skills",
-                "filename": "files/core/6/english/gs6.pdf",
             }
         ],
         "Science": [
             {
                 "title": "Year 6 Science - Periodic Table",
-                "filename": "files/core/6/science/table.pdf",
             }
         ],
         "Geography": [
             {
                 "title": "Year 6 Geography - Western Australia sample task; Australia and Asia",
-                "filename": "files/core/6/geography/st6.pdf",
             }
         ],
         "History": [
             {
                 "title": "Year 6 History - History of Australia's Parliament House",
-                "filename": "files/core/6/history/parh6.pdf",
             }
         ],
     },
@@ -103,31 +93,26 @@ CORE_FILES = {
         "Mathematics": [
             {
                 "title": "Year 7 Maths - Linear relationship workbook",
-                "filename": "files/core/7/mathematics/lin7.pdf",
             }
         ],
         "English": [
             {
                 "title": "Year 7 English - Introduction to Shakespeare",
-                "filename": "files/core/7/english/introshake.pdf",
             }
         ],
         "Science": [
             {
                 "title": "Year 7 Science - Circuit and electricity notes",
-                "filename": "files/core/7/science/cirnotes.pdf",
             }
         ],
         "Geography": [
             {
                 "title": "Year 7 Geography - Flood; reading activity ",
-                "filename": "files/core/7/geography/flood.pdf",
             }
         ],
         "History": [
             {
                 "title": "Year 7 History - Ancient China vocabulary ",
-                "filename": "files/core/7/history/anccvocab.pdf",
             }
         ],
     },
@@ -135,31 +120,26 @@ CORE_FILES = {
         "Mathematics": [
             {
                 "title": "Year 8 Maths - Fill in the blank; Trigonometry",
-                "filename": "files/core/8/mathematics/trig.pdf",
             }
         ],
         "English": [
             {
                 "title": "Year 8 English - Tempe High School Practice exam",
-                "filename": "files/core/8/english/epe8.pdf",
             }
         ],
         "Science": [
             {
                 "title": "Year 8 Science - Ecosystem information",
-                "filename": "files/core/8/science/ecosystems.pdf",
             }
         ],
         "Geography": [
             {
                 "title": "Year 8 Geography - Map skills",
-                "filename": "files/core/8/geography/ms8.pdf",
             }
         ],
         "History": [
             {
                 "title": "Year 8 History - Black Death worksheet",
-                "filename": "files/core/8/history/bd8.pdf",
             }
         ],
     },
@@ -167,31 +147,26 @@ CORE_FILES = {
         "Mathematics": [
             {
                 "title": "Year 9 Maths - Linear Relationships textbook",
-                "filename": "files/core/9/mathematics/linear-notes.pdf",
             }
         ],
         "English": [
             {
                 "title": "Year 9 English - The Monkey's Paw",
-                "filename": "files/core/9/english/monkeyspaw.pdf",
             }
         ],
         "Science": [
             {
                 "title": "Year 9 Science - Practice questions of drawing circuits",
-                "filename": "files/core/9/science/Circuitpractice.pdf",
             }
         ],
         "Geography": [
             {
                 "title": "Year 9 Geography - Water Cycle worksheet",
-                "filename": "files/core/9/geography/water.pdf",
             }
         ],
         "History": [
             {
                 "title": "Year 9 History - Earth history quiz",
-                "filename": "files/core/9/history/history9.pdf",
             }
         ],
     },
@@ -199,35 +174,29 @@ CORE_FILES = {
         "Mathematics": [
             {
                 "title": "Year 10 Maths - Parabola and Rates of Change revision",
-                "filename": "files/core/10/mathematics/pararate10.pdf",
             }
         ],
         "English": [
             {
                 "title": "Year 10 English - Romeo and Juliet workbook",
-                "filename": "files/core/10/english/rajw10.pdf",
             }
         ],
         "Science": [
             {
                 "title": "Year 10 Science - 2012 Past paper for Chemistry",
-                "filename": "files/core/10/science/ppchem10.pdf",
             }
         ],
         "Geography": [
             {
                 "title": "Year 10 Geography - Australian Geography Competition 2025 ",
-                "filename": "files/core/10/geography/agc10.pdf",
             }
         ],
         "History": [
             {
                 "title": "Year 10 History - Australian History Competition 2023: Questions ",
-                "filename": "files/core/10/history/ahcq10.pdf",
             },
             {
                 "title": "Year 10 History - Australian History Competition 2023: Source ",
-                "filename": "files/core/10/history/ahca10.pdf",
             },
         ],
     },
@@ -235,31 +204,26 @@ CORE_FILES = {
         "Mathematics": [
             {
                 "title": "Year 11 Maths - Advanced Trigonometric Equations",
-                "filename": "files/core/11/mathematics/trig11.pdf",
             }
         ],
         "English": [
             {
                 "title": "Year 11 English - Sample Essay of Never Let Me Go and Blade Runner",
-                "filename": "files/core/11/english/sampess11.pdf",
             }
         ],
         "Science": [
             {
                 "title": "Year 11 Science - Biology Revision",
-                "filename": "files/core/11/science/biorev11.pdf",
             }
         ],
         "Geography": [
             {
                 "title": "Year 11 Geography - Asian Geography",
-                "filename": "files/core/11/geography/asia11.pdf",
             }
         ],
         "History": [
             {
                 "title": "Year 11 History - Sample end of year exam paper",
-                "filename": "files/core/11/history/seoyep11.pdf",
             }
         ],
     },
@@ -267,35 +231,29 @@ CORE_FILES = {
         "Mathematics": [
             {
                 "title": "Year 12 Maths - Extension 1 HSC 2025",
-                "filename": "files/core/12/mathematics/ext1mat12.pdf",
             }
         ],
         "English": [
             {
                 "title": "Year 12 English - Advanced paper 1 HSC 2024 ",
-                "filename": "files/core/12/english/aep12.pdf",
             },
             {
                 "title": "Year 12 English - Advanced paper 2 HSC 2024 ",
-                "filename": "files/core/12/english/aes12.pdf",
             },
         ],
         "Science": [
             {
                 "title": "Year 12 Science - Physics HSC 2025",
-                "filename": "files/core/12/science/phy12.pdf",
             }
         ],
         "Geography": [
             {
                 "title": "Year 12 Geography - Geography HSC 2025",
-                "filename": "files/core/12/geography/geo12.pdf",
             }
         ],
         "History": [
             {
                 "title": "Year 12 History - Modern History HSC 2025",
-                "filename": "files/core/12/history/modhis12.pdf",
             }
         ],
     },
@@ -307,25 +265,21 @@ ELECTIVE_FILES = {
         "Coding": [
             {
                 "title": "Year 7 Coding - PC component terminology quiz",
-                "filename": "files/elective/7/coding/terms.pdf",
             }
         ],
         "Japanese": [
             {
                 "title": "Year 7 Japanese - Family vocabulary worksheet",
-                "filename": "files/elective/7/japanese/Famvocab.pdf",
             }
         ],
         "Chinese": [
             {
                 "title": "Year 7 Chinese - Western Australia sample assessment task; Family",
-                "filename": "files/elective/7/chinese/yr7sampchina.pdf",
             }
         ],
         "Commerce": [
             {
                 "title": "Year 7 Commerce - Economy quiz ",
-                "filename": "files/elective/7/commerce/ecquiz.pdf",
             }
         ],
     },
@@ -333,25 +287,21 @@ ELECTIVE_FILES = {
         "Coding": [
             {
                 "title": "Year 8 Coding - Computer Science Terminology",
-                "filename": "files/elective/8/coding/kt8.pdf",
             }
         ],
         "Japanese": [
             {
                 "title": "Year 8 Japanese - Obento revision quiz ",
-                "filename": "files/elective/8/japanese/jap8.pdf",
             }
         ],
         "Chinese": [
             {
                 "title": "Year 8 Chinese - Describing appearance worksheet ",
-                "filename": "files/elective/8/chinese/dac8.pdf",
             }
         ],
         "Commerce": [
             {
                 "title": "Year 8 Commerce - Business and Economic Commerce",
-                "filename": "files/elective/8/commerce/baec8.pdf",
             }
         ],
     },
@@ -365,19 +315,16 @@ ELECTIVE_FILES = {
         "Japanese": [
             {
                 "title": "Year 9 Japanese - New Japanese-Language Proficiency Test Sample Questions - N5",
-                "filename": "files/elective/9/japanese/n5j9.pdf",
             }
         ],
         "Chinese": [
             {
                 "title": "Year 9 Chinese - Pinyin understanding quiz",
-                "filename": "files/elective/9/chinese/pinyinc9.pdf",
             }
         ],
         "Commerce": [
             {
                 "title": "Year 9 Commerce - Commercial Year 9 Textbook",
-                "filename": "files/elective/9/commerce/cstxtb9.pdf",
             }
         ],
     },
@@ -391,19 +338,16 @@ ELECTIVE_FILES = {
         "Japanese": [
             {
                 "title": "Year 10 Japanese - Western Australia sample assessment task; School life ",
-                "filename": "files/elective/10/japanese/wasatj10.pdf",
             }
         ],
         "Chinese": [
             {
                 "title": "Year 10 Chinese - Vocabulary Quiz",
-                "url": "https://www.thatsmandarin.com/quizzes/chinese-vocabulary-quiz/",
             }
         ],
         "Commerce": [
             {
                 "title": "Year 10 Commerce - Commerce Yearly Exam Revision",
-                "url": "https://www.proprofs.com/quiz-school/story.php?title=mti4nzu4ng3kpw ",
             }
         ],
     },
@@ -411,29 +355,24 @@ ELECTIVE_FILES = {
         "Coding": [
             {
                 "title": "Year 11 Coding - Algorithm Design",
-                "url": "https://hsc-software-engineering.onrender.com/learning/intro-to-algorithms/",
             }
         ],
         "Japanese": [
             {
                 "title": "Year 11 Japanese - New Japanese-Language Proficiency Test Sample Questions - N4",
-                "filename": "files/elective/11/japanese/n4j11.pdf",
             }
         ],
         "Chinese": [
             {
                 "title": "Year 11 Chinese - 2024 HSC Beginners Exam Paper",
-                "filename": "files/elective/11/chinese/hscbec11.pdf",
             },
             {
                 "title": "Year 11 Chinese - 2024 HSC Beginners Transcript Paper",
-                "filename": "files/elective/11/chinese/hscbtc11.pdf",
             },
         ],
         "Commerce": [
             {
                 "title": "Year 11 Commerce - Business Review worksheet",
-                "filename": "files/elective/11/commerce/brc11.pdf",
             }
         ],
     },
@@ -447,23 +386,19 @@ ELECTIVE_FILES = {
         "Japanese": [
             {
                 "title": "Year 12 Japanese - 2025 ATAR Japanese Second Language examination",
-                "filename": "files/elective/12/japanese/atarj12.pdf",
             }
         ],
         "Chinese": [
             {
                 "title": "Year 12 Chinese - 2025 HSC Continuers Exam Paper",
-                "filename": "files/elective/12/chinese/hsccec12.pdf",
             },
             {
                 "title": "Year 12 Chinese - 2025 HSC Continuers Transcript Paper",
-                "filename": "files/elective/12/chinese/hscctc12.pdf",
             },
         ],
         "Commerce": [
             {
                 "title": "Year 12 Commerce - 2025 HSC Business Studies examination",
-                "filename": "files/elective/12/commerce/hscbsc12.pdf",
             }
         ],
     },
