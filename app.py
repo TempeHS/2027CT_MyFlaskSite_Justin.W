@@ -412,6 +412,11 @@ def home():
     return render_template("index.html")
 
 
+@app.route("/by")
+def by():
+    return render_template("by.html")
+
+
 @app.route("/aboutus")
 def aboutus():
     return render_template("aboutus.html")
