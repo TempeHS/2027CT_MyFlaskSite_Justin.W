@@ -1,3 +1,4 @@
+
 >># Website Name
 
 | Field                          | Detail |
@@ -47,7 +48,7 @@ This is the most important part of your documentation — it shows your website 
 <img width="800" height="384" alt="fixedelective" src="https://github.com/user-attachments/assets/7385db35-b3d3-4622-89c1-230d0c1344c7" />
 <img width="800" height="384" alt="elective" src="https://github.com/user-attachments/assets/66557504-2d8e-4a22-ab2a-0ca8b25e488f" />
 <img width="800" height="384" alt="login" src="https://github.com/user-attachments/assets/e392bb06-45ba-4775-a0fd-a5afaa2c7a06" />
-
+<img width="375" height="818" alt="phone" src="https://github.com/user-attachments/assets/63c01111-715d-4e90-918a-e60e5bf269d7" />
 
 | Field            | Detail |
 | ---------------- | ------ |
