@@ -18,9 +18,9 @@
 
 ## 1. Overview
 
-**Purpose:** <!-- One or two sentences: what the site is and why it exists (from your Statement of Intent). -->
+**Purpose:** Studylog is an online website designed to support students from stage 3 to stage 6 (year 5 to year 12) in a range of core and elective subjects. This site will act as a source of summarised notes for students, featuring textbooks and online resources.
 
-**Target audience:** <!-- One sentence: who the site is for (from your personas). -->
+**Target audience:** The primary audience of Studylog are students from year 5 -12, with the secondary audience being teachers, parents and guardians.
 
 **Technology stack:** Python Flask · Jinja2 templates · Bootstrap (CDN) · custom CSS · pytest
 
