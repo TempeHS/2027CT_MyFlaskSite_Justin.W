@@ -56,7 +56,7 @@ This is the most important part of your documentation — it shows your website 
 | **Elective Subjects**     |<img width="800" height="384" alt="elective" src="https://github.com/user-attachments/assets/7385db35-b3d3-4622-89c1-230d0c1344c7" /> <br> A showcase of the files inside the Elective page, along with the feature that the files shown are altered depending on the year group that was picked.|
 | **Login**     |<img width="800" height="384" alt="login" src="https://github.com/user-attachments/assets/e392bb06-45ba-4775-a0fd-a5afaa2c7a06" /> <br> Shows the process of logging in with the Name and Password box..|
 | **Attribution**     |<img width="800" height="384" alt="credits" src="https://github.com/user-attachments/assets/8191f704-2140-4063-b780-1cfe84d65fdc" /> <br> A page dedicated to attribute all of the materials and resources used for this website's creation.|
-| **Homepage on mobile**     |<img width="375" height="818" alt="mobile homepage" src="https://github.com/user-attachments/assets/cfba7bce-c8ee-4a9d-ac7b-acce5687134c" /> <br> A tour of the homepage on a mobile device.|
+| **Homepage on mobile**     |<img width="375" height="818" alt="mobile homepage" src="https://github.com/user-attachments/assets/cfba7bce-c8ee-4a9d-ac7b-acce5687134c" /> <br> A tour of the homepage on a mobile device. The navbar is collapsed into the hamburger format.|
 
 
 ---
