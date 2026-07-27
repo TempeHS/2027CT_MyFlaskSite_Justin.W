@@ -20,7 +20,7 @@
 
 **Purpose:** Studylog is an online website designed to support students from stage 3 to stage 6 (year 5 to year 12) in a range of core and elective subjects. This site will act as a source of summarised notes for students, featuring textbooks and online resources.
 
-**Target audience:** The primary audience of Studylog are students from year 5 -12, with the secondary audience being teachers, parents and guardians.
+**Target audience:** The primary audience of Studylog are students from year 5 - 12, with the secondary audience being teachers, parents and guardians.
 
 **Technology stack:** Python Flask · Jinja2 templates · Bootstrap (CDN) · custom CSS · pytest
 
@@ -37,76 +37,27 @@ This is the most important part of your documentation — it shows your website 
   OR link a screen recording stored in the repository:
   [Watch the Walkthrough](./docs/walkthrough.mp4)
 -->
-### Homepage
-A tour of the homepage, showing the hero carosel, cards and buttons that redirects to other pages.
-
-<img width="800" height="384" alt="homepage" src="https://github.com/user-attachments/assets/28e7fd79-7cc8-4294-bf4c-ed2c59bbf10d" />
-
-### Navbar
-A showcase of what page the buttons on the navbar leads to.
-
-<img width="800" height="384" alt="navbar" src="https://github.com/user-attachments/assets/fef814a5-8b43-465b-b0d8-7e2d9d8d6c7a" />
-
-### About Us
-Displays the About Us page.
-
-<img width="800" height="384" alt="about us" src="https://github.com/user-attachments/assets/1f424416-3353-4685-8521-b924abd7670b" />
-
-### Subject Page
-Entering to the Subject Page, and showing the subject information.
-
-<img width="800" height="384" alt="subject" src="https://github.com/user-attachments/assets/54b69e0a-c2cd-4644-9c12-3b9c60841067" />
-
-### Contact Us
-Arriving to the Contact Us page, and sending an example message.
-
-<img width="800" height="384" alt="contact us" src="https://github.com/user-attachments/assets/c155c4c2-d4af-417c-83fc-2c134f1fcfc6" />
-
-### Sign Up
-Shows the Sign Up process, where the email box must have @ to be validated, and the password has to be the same. 
-
-<img width="800" height="384" alt="sign up" src="https://github.com/user-attachments/assets/3f184dd9-d42d-49ee-beb0-2786ea266c2e" />
-
-### Year Form and Dashboard
-Completing the Year Group for and entering to the user's private page.
-
-<img width="800" height="384" alt="year form and dashboard" src="https://github.com/user-attachments/assets/0f7191ed-9ff0-4682-a42e-c2dab6c1675a" />
-
-### Core Subjects
-A showcase of the files inside the Core page.
-
-<img width="800" height="384" alt="core" src="https://github.com/user-attachments/assets/129f79c6-663a-4237-a23d-c00650280ce6" />
-
-### Elective Subjects
-A showcase of the files inside the Elective page.
-
-<img width="800" height="384" alt="elective" src="https://github.com/user-attachments/assets/7385db35-b3d3-4622-89c1-230d0c1344c7" />
-
-### Login
-Shows the process of logging in.
-
-<img width="800" height="384" alt="login" src="https://github.com/user-attachments/assets/e392bb06-45ba-4775-a0fd-a5afaa2c7a06" />
-
-### Attribution
-Features the attributing of all materials used for this website creation.
-
-<img width="800" height="384" alt="credits" src="https://github.com/user-attachments/assets/8191f704-2140-4063-b780-1cfe84d65fdc" />
-
-### Homepage on mobile device
-A tour of the homepage on a mobile device.
-
-<img width="375" height="818" alt="mobile homepage" src="https://github.com/user-attachments/assets/cfba7bce-c8ee-4a9d-ac7b-acce5687134c" />
-
-| Field            | Detail |
-| ---------------- | ------ |
-| **Link / Embed** |        |
-| **Duration**     |        |
-
 **Your walkthrough should show:**
 
 - A tour of each page (Home and Contact)
 - Your key Bootstrap components working (navbar, carousel, cards, map, form)
 - The layout responding when the window is resized (navbar collapsing to a hamburger)
+
+| Field / Feature           | Detail |
+| ---------------- | ------ |
+| **Homepage** |<img width="800" height="384" alt="homepage" src="https://github.com/user-attachments/assets/28e7fd79-7cc8-4294-bf4c-ed2c59bbf10d" /> <br> A tour of the homepage, showing the hero carosel slides of "Get started today", "Subject choices" and "Contact us here". Bootstrap cards are used for What we offer, and the reviews. The blue, styled buttons redirects users to other pages such as sign up, login and attributions.|
+| **Navbar**     |<img width="800" height="384" alt="navbar" src="https://github.com/user-attachments/assets/fef814a5-8b43-465b-b0d8-7e2d9d8d6c7a" /> <br> A showcase of the Bootstrap navbar, with added buttons of Home, About Us, Subjects, Contact, Login, Sign Up and logo home redirection.|
+| **About Us**     |<img width="800" height="384" alt="about us" src="https://github.com/user-attachments/assets/1f424416-3353-4685-8521-b924abd7670b" /> <br> Displays the About Us page, whcih contains informations about "Who We Are", "Studylog's History" and "Our aim".|
+| **Subjects**     |<img width="800" height="384" alt="subject" src="https://github.com/user-attachments/assets/54b69e0a-c2cd-4644-9c12-3b9c60841067" /> <br> Entering the Subject Page which highlight the information we offer for Mathematics, English, Science, Geography, History, Coding, Japanese, Chinese and Commerce.|
+| **Contact Us**  |<img width="800" height="384" alt="contact us" src="https://github.com/user-attachments/assets/c155c4c2-d4af-417c-83fc-2c134f1fcfc6" /> <br> A page that allows users to view the map location on where the website was created, along with a sample phone number and email metioned underneath. It also has the feature allwoing users to send a message to us. By filling in the boxes of Your Name, Email Address, Subject and Message correctly, it returns a thank you message back.|
+| **Sign Up**|<img width="800" height="384" alt="sign up" src="https://github.com/user-attachments/assets/3f184dd9-d42d-49ee-beb0-2786ea266c2e" /> <br> Shows the Sign Up process, along with going to the "Already has an account?" button. For the signing up, it includes a username box, an email box where it must have an @ to be validated, and two password boxes which only allows the user to proceed when the two password entered at the same.|
+| **Year Form and Dashboard**|<img width="800" height="384" alt="year form and dashboard" src="https://github.com/user-attachments/assets/0f7191ed-9ff0-4682-a42e-c2dab6c1675a" /> <br> A Year Form with a dropdown that allows users to select their year group for more acctura learning information, and a list of subjects we offer. The Dashboard shows a welcome message and updated changes along with two cards - one leading to Core Subject page and another to Elective Subject page.|
+| **Core Subjects**     |<img width="800" height="384" alt="core" src="https://github.com/user-attachments/assets/129f79c6-663a-4237-a23d-c00650280ce6" /> <br> A showcase of the files inside the Core page, along with the feature that the files that is displayed changes depending on the year group selected.|
+| **Elective Subjects**     |<img width="800" height="384" alt="elective" src="https://github.com/user-attachments/assets/7385db35-b3d3-4622-89c1-230d0c1344c7" /> <br> A showcase of the files inside the Elective page, along with the feature that the files shown are altered depending on the year group that was picked.|
+| **Login**     |<img width="800" height="384" alt="login" src="https://github.com/user-attachments/assets/e392bb06-45ba-4775-a0fd-a5afaa2c7a06" /> <br> Shows the process of logging in with the Name and Password box..|
+| **Attribution**     |<img width="800" height="384" alt="credits" src="https://github.com/user-attachments/assets/8191f704-2140-4063-b780-1cfe84d65fdc" /> <br> A page dedicated to attribute all of the materials and resources used for this website's creation.|
+| **Homepage on mobile**     |<img width="375" height="818" alt="mobile homepage" src="https://github.com/user-attachments/assets/cfba7bce-c8ee-4a9d-ac7b-acce5687134c" /> <br> A tour of the homepage on a mobile device.|
+
 
 ---
 
