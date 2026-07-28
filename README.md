@@ -119,6 +119,7 @@ The final aim that was attempted to achieve in Studylog is have a simple, yet ef
 In conclusion, the overall effectiveness of the current product of Studylog is reasonably effective, as it matches the aims of being relevant to study, simple to navigate and targeted to students, teachers, parents and guardians. It has made learning easier to access with the simple navigation, automatic year group loading and a simple dashboard that separates core and elective resources. These features allow users to quickly locate materials without confusion. However, the effectiveness is not perfect as there are changes that could be made including to add more study resources, implementation of syllabus update and community area, and apply more styling format.
 
 A single change that would improve Studylog the most is the implementation of community comment area. Applying this would significantly enhance the collaborative learning between students, as it allows student to ask questions and provide feedback. In teacher's perspective, having the community area allows them to clarify topics for their students, and parents / guardians could engage in their child's learning more by understanding the topic and teaching it to their child. This change has the potential to change Studylog from being just a resource hub, to an active learning environment, leading to improvements in general study experience.
+
 ---
 
 ## 4. Acknowledgements
