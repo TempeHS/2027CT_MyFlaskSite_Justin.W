@@ -132,9 +132,12 @@ A single change that would improve Studylog the most is the implementation of co
 | ------------- | ---------------- | ------- | ---------------------- |
 | Bootstrap     | Bootstrap team   | MIT     | Layout and components  |
 | Flask         | Pallets Projects | BSD     | Web server and routing |
-|               |                  |         |                        |
-|               |                  |         |                        |
-
+| Images             | Magnific                 |Magnific Free License         |Images for /, and /subject                       |
+| Images              | illustAC                 |illustAC Standard Usage License         |Images for /, and /userprivate                         |
+| Images              | ソコスト                |ソコスト's Terms of Use        |Image for /userprivate                         |
+| Images              | Unsplash              |Unsplash License       |Image for /subject                      |
+| Images              | Hutaba            |Futaba's Free Illustration Terms of Use     |Image for /subject                      |
+| Images              | Tegaki Desuno             |てがきですのβ!'s Free Proprietary terms of use      |Images for /, and /userform                     |
 ---
 
 > **Student Declaration:** All work submitted is my own except where explicitly acknowledged above.
