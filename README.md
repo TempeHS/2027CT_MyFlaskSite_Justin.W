@@ -1,5 +1,5 @@
 
->># Studylog
+# Studylog
 
 | Field                          | Detail |
 | ------------------------------ | ------ |
