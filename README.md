@@ -138,6 +138,8 @@ A single change that would improve Studylog the most is the implementation of co
 | Images              | Unsplash              |Unsplash License       |Image for /subject                      |
 | Images              | Hutaba            |Futaba's Free Illustration Terms of Use     |Image for /subject                      |
 | Images              | Tegaki Desuno             |てがきですのβ!'s Free Proprietary terms of use      |Images for /, and /userform                     |
+| YouTube Videos        | YouTube | N/A     | Tutorials and contents to enhance the code |
+| Flask         | Pallets Projects | BSD     | Web server and routing |
 ---
 
 > **Student Declaration:** All work submitted is my own except where explicitly acknowledged above.
