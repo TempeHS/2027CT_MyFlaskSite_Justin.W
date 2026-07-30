@@ -6,7 +6,7 @@
 | **Website Title**              |Studylog        |
 | **Student Name(s)**            |Justin Wong        |
 | **Class / Course**             |9CT1; 2027 Computer Technologies     |
-| **Repository**                 |2027CT_MyFlaskSite_Justin.W        |
+| **Repository**                 |2027CT_MyFlaskSite_Justin.W https://github.com/TempeHS/2027CT_MyFlaskSite_Justin.W/tree/main       |
 | **Live Site / Codespaces URL** |https://super-orbit-wr655qp7qxwqcgvgp-5000.app.github.dev/        |
 | **Date**                       |31/7/26        |
 
